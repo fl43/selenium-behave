@@ -12,7 +12,7 @@ def verify_title(context, text):
 @when('I enter my credentials')
 def enter_credentials(context):
     context.browser.find_element_by_id('username').send_keys('lazy.beaver@nttdata.com.iaam')
-    context.browser.find_element_by_id('password').send_keys('fl3salesforce4')
+    context.browser.find_element_by_id('password').send_keys('REPLACE_THIS')
 
 @when('I click login')
 def click_login(context):
